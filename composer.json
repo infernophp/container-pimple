@@ -1,27 +1,21 @@
 {
   "name": "inferno/container-pimple",
-  "description": "Inferno Container Pimple",
+  "description": "inferno container pimple",
+  "type" : "library",
   "keywords": [
+    "inferno",
     "container",
     "pimple"
   ],
   "homepage": "https://github.com/infernophp/container-pimple",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Markus Nörenberg",
-      "email": "noerenberg.markus@gmail.com",
-      "role": "Developer"
-    }
-  ],
   "require": {
-    "php": ">=7.1",
+    "php": ">=7.4",
     "pimple/pimple": "^3.0",
     "psr/container": "^1.0"
-
   },
   "require-dev": {
-    "phpstan/phpstan": "^0.11.1"
+    "phpstan/phpstan": "^0.12.32"
   },
   "autoload": {
     "psr-4": {
